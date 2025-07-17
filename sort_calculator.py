@@ -41,7 +41,7 @@ def main():
         for num in sorted_numbers:
             
             # 문자열로 변환
-            str_num = str(float_num)
+            str_num = str(num)
             
             # 리스트에 추가
             string_list.append(str_num)
