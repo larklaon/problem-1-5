@@ -1,4 +1,4 @@
-def bubble_sort(numbers):
+def bubble_sort(numbers: list[float]) -> list[float]:
     """버블 정렬 알고리즘을 사용하여 숫자 리스트를 오름차순으로 정렬"""
     n = len(numbers)
     for i in range(n):
@@ -33,7 +33,7 @@ def main():
         
         # 버블 정렬로 정렬
         sorted_numbers = bubble_sort(numbers)
-        
+
         # 문자열들을 저장할 빈 리스트 생성
         string_list = []
         
